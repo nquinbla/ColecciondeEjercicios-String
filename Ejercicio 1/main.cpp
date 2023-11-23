@@ -9,7 +9,7 @@ int main(int argc, char** argv) {
     string frase1;
     string frase2;
 
-    string frase3 = "Hola mundo";
+    string frase3 = "Las tartas de queso son las mejores tartas del mundo";
     string frase4(frase3);
 
     string frase5(frase3.begin(), frase3.end());

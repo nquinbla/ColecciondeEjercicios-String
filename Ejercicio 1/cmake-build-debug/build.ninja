@@ -73,6 +73,39 @@ build representacion.exe: CXX_EXECUTABLE_LINKER__representacion_Debug CMakeFiles
   TARGET_IMPLIB = librepresentacion.dll.a
   TARGET_PDB = representacion.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target representacion2
+
+
+#############################################
+# Order-only phony target for representacion2
+
+build cmake_object_order_depends_target_representacion2: phony || CMakeFiles/representacion2.dir
+
+build CMakeFiles/representacion2.dir/main2.cpp.obj: CXX_COMPILER__representacion2_unscanned_Debug C$:/Users/nerea/OneDrive/Documentos/GitHub/ColecciondeEjercicios-String/Ejercicio$ 1/main2.cpp || cmake_object_order_depends_target_representacion2
+  DEP_FILE = CMakeFiles\representacion2.dir\main2.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\representacion2.dir
+  OBJECT_FILE_DIR = CMakeFiles\representacion2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target representacion2
+
+
+#############################################
+# Link the executable representacion2.exe
+
+build representacion2.exe: CXX_EXECUTABLE_LINKER__representacion2_Debug CMakeFiles/representacion2.dir/main2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\representacion2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = representacion2.exe
+  TARGET_IMPLIB = librepresentacion2.dll.a
+  TARGET_PDB = representacion2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -101,6 +134,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build representacion: phony representacion.exe
 
+build representacion2: phony representacion2.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +144,7 @@ build representacion: phony representacion.exe
 #############################################
 # Folder: C:/Users/nerea/OneDrive/Documentos/GitHub/ColecciondeEjercicios-String/Ejercicio 1/cmake-build-debug
 
-build all: phony representacion.exe
+build all: phony representacion.exe representacion2.exe
 
 # =============================================================================
 # Built-in targets

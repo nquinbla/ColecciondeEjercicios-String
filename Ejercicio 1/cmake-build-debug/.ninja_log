@@ -1,3 +1,11 @@
 # ninja log v5
 1	814	7224413544446974	CMakeFiles/representacion.dir/main.cpp.obj	99b6134388694c0a
 818	1031	7224413546757254	representacion.exe	837621a15f4caff3
+1	501	7224416061277383	CMakeFiles/representacion2.dir/main2.cpp.obj	92918bd44fff1658
+503	695	7224416063158436	representacion2.exe	9e68ed1772ba1e1a
+6	516	7224417071041260	CMakeFiles/representacion2.dir/main2.cpp.obj	92918bd44fff1658
+518	682	7224417072629447	representacion2.exe	9e68ed1772ba1e1a
+6	577	7224418300515078	CMakeFiles/representacion2.dir/main2.cpp.obj	92918bd44fff1658
+578	746	7224418302170143	representacion2.exe	9e68ed1772ba1e1a
+5	587	7224419608671801	CMakeFiles/representacion.dir/main.cpp.obj	99b6134388694c0a
+588	753	7224419610258165	representacion.exe	837621a15f4caff3
